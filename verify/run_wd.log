@@ -1,0 +1,7 @@
+RUN entered t=10170000
+watchdog fired: resets=3 hang=2 t=3210170000
+TB_PASS (watchdog)
+- tb_wd.sv:104: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 4ms; walltime 0.045 s; speed 97.846 ms/s
+- Verilator: cpu 0.045 s on 1 threads; alloced 377 MB

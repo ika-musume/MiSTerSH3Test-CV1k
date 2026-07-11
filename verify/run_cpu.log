@@ -1,0 +1,37 @@
+SIG[0]=3362d800
+SIG[1]=94641597
+SIG[2]=6ece6c01
+SIG[3]=47b8ccc5
+SIG[4]=b689c7ba
+SIGXOR 00000000
+RESULT map=00 canary=1f cyc=18745
+KICK   iter=1 cyc=18773
+SIG[0]=3362d800
+SIG[1]=94641597
+SIG[2]=6ece6c01
+SIG[3]=47b8ccc5
+SIG[4]=b689c7ba
+SIGXOR 00000000
+RESULT map=00 canary=1f cyc=24151
+KICK   iter=2 cyc=24179
+SIG[0]=3362d800
+SIG[1]=94641597
+SIG[2]=6ece6c01
+SIG[3]=47b8ccc5
+SIG[4]=b689c7ba
+SIGXOR 00000000
+RESULT map=00 canary=1f cyc=29557
+KICK   iter=3 cyc=29585
+SIG[0]=3362d800
+SIG[1]=94641597
+SIG[2]=6ece6c01
+SIG[3]=47b8ccc5
+SIG[4]=b689c7ba
+SIGXOR 00000000
+RESULT map=00 canary=1f cyc=34963
+KICK   iter=4 cyc=34991
+DONE kicks=4 bad_results=0 traps=0 seqerrs=0 tbseq=0
+- tb_cpu.sv:117: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 350ns; walltime 0.052 s; speed 6.589 us/s
+- Verilator: cpu 0.053 s on 1 threads; alloced 377 MB

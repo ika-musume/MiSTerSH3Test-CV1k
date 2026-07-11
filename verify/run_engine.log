@@ -1,0 +1,27 @@
+STEP 0/10 t=10000
+STEP 1/10 t=30000
+PLL_GO step=0 t=410000
+PLL_GO step=1 t=2000410000
+STEP 2/10 t=2000410000
+PLL_GO step=2 t=4000410000
+STEP 3/10 t=4000410000
+PLL_GO step=3 t=6000410000
+STEP 4/10 t=6000410000
+PLL_GO step=4 t=8000410000
+STEP 5/10 t=8000410000
+PLL_GO step=5 t=11000410000
+STEP 6/10 t=11000410000
+PLL_GO step=6 t=14000410000
+STEP 7/10 t=14000410000
+PLL_GO step=7 t=18000410000
+STEP 8/10 t=18000410000
+PLL_GO step=8 t=22000410000
+STEP 9/10 t=22000410000
+PLL_GO step=9 t=26000410000
+STEP 10/10 t=26000410000
+DONE t=30000370000 loops(last step)=71 freq=99968000 history=55555 seqerrs=0
+TB_PASS (clean full run)
+- tb_engine.sv:101: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 30ms; walltime 4.048 s; speed 7.413 ms/s
+- Verilator: cpu 4.047 s on 1 threads; alloced 377 MB

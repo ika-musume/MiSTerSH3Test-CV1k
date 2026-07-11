@@ -1,0 +1,9 @@
+seed sweep: OPTIMIZATION_MODE = AGGRESSIVE PERFORMANCE
+clock      : emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk (constrained 9.727 ns = 102.8 MHz)
+seed 1  : -3.290
+seed 2  : -3.561
+seed 3  : -3.255
+seed 4  : -3.513
+seed 5  : -3.624
+seed 6  : -3.736
+winner     : seed 3 (-3.255 ns)

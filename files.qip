@@ -1,0 +1,4 @@
+set_global_assignment -name QIP_FILE rtl/SH3Test.qip
+set_global_assignment -name QIP_FILE rtl/pll2.qip
+set_global_assignment -name SDC_FILE SH3Test.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE SH3Test.sv

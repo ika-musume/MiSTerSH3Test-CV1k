@@ -1,0 +1,36 @@
+# SH3Test engine + HS3 SH-3 IP (local copy at HS3/ in the benchmark root;
+# packages/interfaces first, then cpu_core, peri, chip top).
+
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/cpu_bus_if.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/cache_pkg.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/int_pipe_pkg.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/peri_bus_if.sv ]
+
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/cache_mem.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/cache.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/agu.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/int_pipe_mem.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/int_pipe.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/ctrl_reg.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/exc_handler.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/cpu_core/cpu_core.sv ]
+
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/ibus_arb.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/ibus_splitter.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/ibus_bridge.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/bsc.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/cpg_wdt.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/dmac_channel.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/dmac.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/intc.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/ioport.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/rtc.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/peri/tmu.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) ../HS3/HS3.sv ]
+
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) to_bcd.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) test_overlay.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) test_videoout.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) sh3test_cpu.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) sh3test_mgr.sv ]
+set_global_assignment -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) sh3test_cv1k.sv ]

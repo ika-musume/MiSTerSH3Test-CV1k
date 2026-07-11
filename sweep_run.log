@@ -1,0 +1,18 @@
+== sweep dir : /home/raki/Desktop/ikacore_CV1k/benchmarks/MiSTerSH3Test-CV1k/build_sweep
+== seeds     : 1 2 3 4 5 6  (6 threads each, 48 cores)
+== prog hex  : 4096 lines, ok
+-- seed 1 launched (pid 522547)
+-- seed 2 launched (pid 522743)
+-- seed 3 launched (pid 522848)
+-- seed 4 launched (pid 522953)
+-- seed 5 launched (pid 523058)
+-- seed 6 launched (pid 523167)
+== all containers finished
+seed 1: setup slack -3.681 ns
+seed 2: setup slack -3.593 ns
+seed 3: setup slack -3.154 ns
+seed 4: setup slack -3.695 ns
+seed 5: setup slack -3.604 ns
+seed 6: setup slack -3.636 ns
+== best: seed 3  slack -3.154 ns
+== kept /home/raki/Desktop/ikacore_CV1k/benchmarks/MiSTerSH3Test-CV1k/build_sweep/seed3 ; summary in seed_sweep.txt

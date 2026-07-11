@@ -1,0 +1,21 @@
+STEP 0/10 t=10000
+STEP 1/10 t=30000
+PLL_GO step=0 t=410000
+PLL_GO step=1 t=2000410000
+STEP 2/10 t=2000410000
+PLL_GO step=2 t=4000410000
+STEP 3/10 t=4000410000
+PLL_GO step=3 t=6000410000
+STEP 4/10 t=6000410000
+PLL_GO step=4 t=8000410000
+STEP 5/10 t=8000410000
+PLL_GO step=5 t=11000410000
+STEP 6/10 t=11000410000
+PLL_GO step=6 t=14000410000
+STEP 7/10 t=14000410000
+ALARM raised at step 7, errors=5 seqerrs=0 t=14414050000
+TB_PASS (alarm path)
+- tb_engine.sv:83: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.032 2025-01-01
+- Verilator: $finish at 14ms; walltime 1.981 s; speed 7.280 ms/s
+- Verilator: cpu 1.980 s on 1 threads; alloced 377 MB
