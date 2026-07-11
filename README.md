@@ -1,5 +1,8 @@
 # MiSTerSH3Test-CV1k
 
+**Most people have reported that it runs stably at 102.8MHz 
+and can reach up to 133MHz. Cyclone V / speed grade I7**
+
 SH-3 (HS3 core) Fmax stress suite for ikacore_CV1k. Fork of
 `benchmarks/MiSTerDDR3Test-CV1k` (itself a fork of
 [MiSTerDDR3Test](https://github.com/RobertPeip/MiSTerDDR3Test),
